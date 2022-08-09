@@ -10,8 +10,8 @@ body {
 .container {
     max-width: 1520px;
     height: 112.94px;
-    border-bottom: 1.05556px solid #4B5563
-    margin: 0px auto;
+    border-bottom: 1.05556px solid #4B5563;  
+    margin: 0px auto; 
 }
 .content {
     max-width: 1304.17px;

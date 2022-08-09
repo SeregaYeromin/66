@@ -5,12 +5,13 @@
 }
 body {
     overflow-x: hidden;
+    width: 100%;	
 }
 .container {
     max-width: 1520px;
     height: 112.94px;
-    border-bottom: 1.05556px solid #4B5563;
-    
+    border-bottom: 1.05556px solid #4B5563
+    margin: 0px auto;
 }
 .content {
     max-width: 1304.17px;
@@ -191,6 +192,7 @@ a:hover:before {
     margin: 50px 0px 30px 120px;
     max-width: 1520px;
     height: 100%;
+    margin: 0px auto;
 }
 .content__con {
     max-width: 1304.17px;

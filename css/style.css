@@ -315,7 +315,7 @@ a:hover:before {
     filter: blur(316.667px);
     transform: matrix(-0.93, 0.36, -0.36, -0.93, 0, 0);
 }
-@media (max-width: 1350px) {
+@media (max-width: 1380px) {
     .content {
         display: flex;
         justify-content: space-around;

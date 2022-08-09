@@ -315,11 +315,17 @@ a:hover:before {
     filter: blur(316.667px);
     transform: matrix(-0.93, 0.36, -0.36, -0.93, 0, 0);
 }
-
+@media (max-width: 1308px) {
+    .content {
+        display: flex;
+        justify-content: space-around;
+        gap: 50px;
+    }
+}
 @media (max-width: 1250px) {
     .content {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         gap: 50px;
     }
     .container__body {
@@ -349,6 +355,13 @@ a:hover:before {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+}
+@media (max-width: 1150px) {
+    .content {
+        display: flex;
+        justify-content: space-around;
+        gap: 40px;
     }
 }
 @media (max-width: 770px) {
@@ -385,6 +398,11 @@ a:hover:before {
     }
 }
 @media (max-width: 450px) {
+    .nav__c {
+        display: flex;
+        justify-content: center;
+        padding: 0px 30px;
+    }
     .container {
         width: 100%;
         display: flex;
@@ -444,5 +462,12 @@ a:hover:before {
         height: 100%;
         overflow: hidden;
         white-space: wrap;
+    }
+}
+@media (max-width: 375px) {
+    .nav__c {
+        display: flex;
+        justify-content: center;
+        padding: 0px 20px;
     }
 }
